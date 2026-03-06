@@ -14,7 +14,7 @@ while (True):
     if (GuessNumber > your_number):
         print(" Too low! Try again.")
     elif(GuessNumber < your_number):
-        print(" Too big ! Try again.")
+        print(" Too hight ! Try again.")
     else:
         print(f"\n🎉🎉🎉 Correct! You guessed the number in {tries} tries.")
         break
